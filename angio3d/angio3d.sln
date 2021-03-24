@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AngioLib", "..\AngioLib\AngioLib.vcxproj", "{FC07E8D8-89B4-4A57-B98D-E41F55E2B369}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "angio3d", "angio3d.vcxproj", "{62E4C3C0-86BF-40A6-9EA3-FC22A399E5C2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FC07E8D8-89B4-4A57-B98D-E41F55E2B369} = {FC07E8D8-89B4-4A57-B98D-E41F55E2B369}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC07E8D8-89B4-4A57-B98D-E41F55E2B369}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FC07E8D8-89B4-4A57-B98D-E41F55E2B369}.Debug|Win32.Build.0 = Debug|Win32
+		{FC07E8D8-89B4-4A57-B98D-E41F55E2B369}.Release|Win32.ActiveCfg = Release|Win32
+		{FC07E8D8-89B4-4A57-B98D-E41F55E2B369}.Release|Win32.Build.0 = Release|Win32
+		{62E4C3C0-86BF-40A6-9EA3-FC22A399E5C2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{62E4C3C0-86BF-40A6-9EA3-FC22A399E5C2}.Debug|Win32.Build.0 = Debug|Win32
+		{62E4C3C0-86BF-40A6-9EA3-FC22A399E5C2}.Release|Win32.ActiveCfg = Release|Win32
+		{62E4C3C0-86BF-40A6-9EA3-FC22A399E5C2}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		AMDCaProjectFile = C:\Angiogenesis Model\angio3d\CodeAnalyst\angio3d.caw
+		AMDCaPersistentStartup = angio3d
+		AMDCaPersistentConfig = Release|Win32
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal
